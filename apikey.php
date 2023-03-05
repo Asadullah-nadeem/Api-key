@@ -52,7 +52,7 @@ if (isset($_SERVER['HTTP_X_API_KEY'])) {
 header('API-KEY: ' . $apiKey);
 
 //Json file
-$url = 'https://bit.codeaxe.in/AB454244s5d4Dfds54.json';
+$url = 'https://yoururl.com/api.json';
 $json_data = file_get_contents($url);
 $data = json_decode($json_data, true);
 
